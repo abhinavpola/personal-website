@@ -1,0 +1,52 @@
+<h1>TicTacToe API</h1>
+
+<hr>
+
+<h2>Try it out!</h2>
+
+<hr>
+
+<code>curl https://api.abhinavpola.com/tictactoe/:boardstring</code>
+
+<br>
+<hr>
+<br>
+
+<code>
+    RESPONSE
+<br>
+    {
+        boardString:	"user input",
+        evaluation:	    "Evaluation.result"
+    }
+<br>
+</code>
+
+<hr>
+<h3>Generate SVG of board</h3>
+
+<code>https://api.abhinavpola.com/tictactoe/boardview/:boardstring</code>
+
+<br>
+<hr>
+<br>
+
+<code>
+    RESPONSE
+<br>
+    A 3x3 grid representation of the current board state given a valid input string.
+<br>
+</code>
+
+<hr>
+<h4>How to save SVG</h4>
+<p>Copy and paste the code within SVG tags into a text editor and save with .svg extension.</p>
+
+<hr>
+
+<h3>Plans for future</h3>
+<ul>
+    <li><del>Generate SVGs for current board state if user entered valid string</del></li>
+    <li>Make SVGs ready to download</li>
+    <li>Improve boardview styling</li>
+</ul>
