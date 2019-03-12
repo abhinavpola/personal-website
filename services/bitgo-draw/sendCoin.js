@@ -1,5 +1,5 @@
 var BitGoJS = require('bitgo');
-var bitgo = new BitGoJS.BitGo({env: 'test', accessToken: process.env.ACCESS_TOKEN});
+var bitgo = new BitGoJS.BitGo({env: 'test', accessToken: 'apikey'});
 
 if (process.argv.length < 6) {
   console.log("usage:\n\t" + process.argv[0] + " " + process.argv[1] + " <walletId> <walletPassphrase> <destinationAddress> <amountSatoshis>");
