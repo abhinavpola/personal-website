@@ -3,7 +3,9 @@ const Router = require('koa-router');
 const render = require('koa-ejs');
 const path = require('path');
 
+
 const app = new Koa();
+
 
 // error handling
 app.use(async (ctx, next) => {
@@ -24,6 +26,7 @@ render(app, {
     cache: false,
     debug: false
 })
+
 
 
 const router = new Router();
